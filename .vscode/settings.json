@@ -1,0 +1,42 @@
+{
+  // Set the default formatter to prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Format the document when saving
+  "editor.formatOnSave": true,
+
+  // Enable linting on save (requires ESLint extension)
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Enable Emmet for JSX
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // Enable snippets suggestions
+  "editor.snippetSuggestions": "top",
+
+  // Tab size of 2 spaces for better readability in JS/JSX
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // Include quotes around JSX properties
+  "javascript.preferences.quoteStyle": "auto",
+  "typescript.preferences.quoteStyle": "auto",
+
+  // Enable TypeScript server for better IntelliSense
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Enable error checking with TypeScript in JS files
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+
+  // Exclude node_modules from search and workspace
+  "files.exclude": {
+    "node_modules": true,
+    "build": true
+  }
+}
