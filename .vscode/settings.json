@@ -7,7 +7,7 @@
 
   // Enable linting on save (requires ESLint extension)
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
 
   // Enable Emmet for JSX
